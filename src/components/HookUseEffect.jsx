@@ -26,8 +26,14 @@ export const HookUseEffect = () => {
         personajes.map((personaje) => (
           <div key={personaje.name}>
             <img src={personaje.image} alt="" />
+            <h3>Nombre:</h3>
             <p>{personaje.name}</p>
+            <h3>Especie:</h3>
             <p>{personaje.species}</p>
+            <h3>Localización:</h3>
+            <p>{personaje.location.name}</p>
+            <h3>Origen:</h3>
+            <p>{personaje.origin.name}</p>
           </div>
         ))}
     </div>
