@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  background: #6da1cc;
+}
+
+.containerPersonaje {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+/* Estilos para la tarjeta */
+.cardPersonaje {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  background: #2bc03f;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.cardPersonaje:hover {
+  transform: scale(1.05);
+}
