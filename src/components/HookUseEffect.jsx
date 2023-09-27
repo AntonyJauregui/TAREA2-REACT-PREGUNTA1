@@ -30,7 +30,7 @@ export const HookUseEffect = () => {
     <section className="container">
       <div className="containerPersonaje">
         {personajes &&
-          personajes.map((personaje) => (
+          personajes.map((personaje, episode) => (
             <div className="cardPersonaje" key={personaje.name}>
               <img src={personaje.image} alt="" />
               <h3>Nombre:</h3>
