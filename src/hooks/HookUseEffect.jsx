@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Moda } from "../components/moda";
 
-
 export const HookUseEffect = () => {
   const [personajes, setPersonajes] = useState();
   const [modal, setModal] = useState({});
